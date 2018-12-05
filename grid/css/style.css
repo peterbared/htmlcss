@@ -1,36 +1,52 @@
 *, html {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 body {
   margin: 0 auto;
   padding: 0;
-  font: normal 16px/16px Consolas, "Andale Mono", "Courier New", "monospace"; }
+  font: normal 16px/16px Consolas, "Andale Mono", "Courier New", "monospace";
+}
 
 footer {
-  background-color: chocolate; }
+  background-color: chocolate;
+}
 
 aside {
-  background-color: blue; }
+  background-color: blue;
+}
 
 main {
-  background-color: red; }
+  background-color: red;
+}
 
 header {
-  background-color: grey; }
+  background-color: grey;
+}
 
 .container {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 100px 350px 500px; }
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: 100px 350px 500px;
+      grid-template-rows: 100px 350px 500px;
+}
 
 header {
-  grid-column: span 12; }
+  grid-column: span 12;
+}
 
 aside {
-  grid-column: span 3; }
+  grid-column: span 6;
+}
 
 main {
-  grid-column: span 9; }
+  grid-column: span 6;
+}
 
 footer {
-  grid-column: span 12; }
+  grid-column: span 12;
+}
+/*# sourceMappingURL=style.css.map */

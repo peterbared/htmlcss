@@ -1,33 +1,44 @@
-@import "bootstrap-4.0.0.css";  
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto+Slab:400,700');
- 
-body{
- font-family: 'Lato', sans-serif;   
+@import url("bootstrap-4.0.0.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto+Slab:400,700");
+body {
+  font-family: 'Lato', sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Roboto Slab', serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
 }
-.navbar-brand img{
-    height:70px;
+
+.navbar-brand img {
+  height: 70px;
 }
+
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #8DBFE1;
-    border-color: #8DBFE1;
+  color: #fff;
+  background-color: #8DBFE1;
+  border-color: #8DBFE1;
 }
+
 .btn-primary {
-    color: #fff;
-    background-color: #8DBFE1;
-    border-color: #8DBFE1;
+  color: #fff;
+  background-color: #8DBFE1;
+  border-color: #8DBFE1;
 }
-.jumbotron{
-    background: bottom center / cover no-repeat url("../img/pKHSYOb.jpg");
+
+.jumbotron {
+  background: bottom center/cover no-repeat url("../img/pKHSYOb.jpg");
 }
-.carousel{
-   
-    overflow: hidden
+
+.carousel {
+  overflow: hidden;
 }
-.fas,.fab{
-    font-size:6rem;
-    color:lightgrey;
+
+.fas, .fab {
+  font-size: 6rem;
+  color: lightgrey;
 }
+
+.card {
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.6);
+}
+/*# sourceMappingURL=style.css.map */

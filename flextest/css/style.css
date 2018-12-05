@@ -6,7 +6,8 @@ body {
   background-color: azure;
   max-width: 90%;
   font-family: 'IBM Plex Serif', serif;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body::-webkit-scrollbar {
