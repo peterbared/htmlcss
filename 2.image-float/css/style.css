@@ -1,0 +1,22 @@
+*, html {
+  box-sizing: border-box; }
+
+body {
+  margin: 40px;
+  padding: 0;
+  font: normal 16px/16px Consolas, "Andale Mono", "Courier New", "monospace"; }
+
+h1 {
+  line-height: 120%; }
+
+figure {
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-right: 20px;
+  margin-bottom: 20px; }
+  figure figcaption {
+    text-transform: uppercase;
+    text-align: center; }
+  figure img {
+    width: 100%; }

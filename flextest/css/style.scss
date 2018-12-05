@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+body{
+    margin:30px auto 20px auto;
+    padding:0;
+    font-size: 16px;
+    background-color: azure;
+    max-width: 90%;
+    font-family: 'IBM Plex Serif', serif;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+h1,h2,h3,h4,h5,p,ul,li,figcaption{
+    // margin:0;
+    // padding:0;
+    // line-height: 100%;
+}
+h1{
+    font-size: 2em;
+}
+p{
+    text-indent: 1em;
+    font-size:1em;
+    &.ingress{
+        text-indent: 0em;
+        font-size:1.2em;
+        font-weight: 600;
+    }
+}
+a{
+    color:black;
+    &:hover{
+        background-color: aqua;
+    }
+}
+figure{
+    margin: 0;
+    padding:0;
+    figcaption{
+        margin: 0;
+        font-size: 0.8em;
+        padding:5px;
+        color:white;
+        background-color: black;
+    }
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+@media (min-width: 960px) {
+    body{
+        max-width: 900px;
+        background-color: bisque;
+    }
+}

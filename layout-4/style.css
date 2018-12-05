@@ -1,0 +1,38 @@
+*,
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+
+    background-color: beige;
+    display: flex;
+}
+
+.box {
+    width: 33.3333%;
+
+    background-color: aquamarine;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.inner {
+    flex: 0 1 400px;
+    margin: 40px;
+}
+
+.inner_center {
+    flex: 0 1 400px;
+    margin: 40px;
+    align-self: center;
+}
+
+img {
+    width: 100%;
+}

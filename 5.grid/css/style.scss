@@ -1,0 +1,41 @@
+*,html{
+	box-sizing: border-box;
+}
+body{
+	margin:0 auto;
+	padding:0;
+	font:normal 16px/16px Consolas, "Andale Mono", "Courier New", "monospace";
+}
+
+
+footer{
+	background-color:chocolate;
+}
+aside{
+	background-color:blue;
+}
+main{
+	background-color:red;
+}
+header{
+	background-color:grey;
+}
+
+.container {
+    display: grid;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 350px 500px;
+}
+
+header {
+    grid-column: span 12;
+}
+aside {
+    grid-column: span 6;
+}
+main {
+    grid-column: span 6;
+}
+footer {
+    grid-column: span 12;
+}

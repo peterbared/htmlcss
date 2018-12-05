@@ -1,0 +1,44 @@
+*,html{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    max-width:900px;
+    background-color:grey;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom:2%;
+    
+    .box{
+        width:calc(92%/3);
+        min-height: 300px;
+        background-color: aquamarine;
+        margin-left:2%;
+        margin-top:2%;
+    }
+}
+
+@media (max-width:768px){
+    
+    .container{
+        
+        .box{
+            width:47%;
+        }
+    }
+    
+}
+
+@media (max-width:400px){
+    
+    .container{
+        
+        .box{
+            width:96%;
+        }
+    }
+    
+}

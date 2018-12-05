@@ -1,0 +1,50 @@
+*,html{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    background-color:grey;
+    margin:0;
+    padding:0;
+    
+}
+.mainrow{
+    display: flex;  
+    flex-flow: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+p{
+    padding:0 15px;
+}
+
+img{
+    width:100%;
+    display: block;
+}
+article{
+    background-color: white;
+    width:50%;
+   
+    &.featured_image{
+       
+        width:75%;
+    }
+    &.featured_text{
+       width:25%;
+    }
+}
+@media all and (min-width: 768px){
+    article{
+        flex:1 25%;
+       
+        &.featured_image{
+            flex:3;
+            
+        }
+        &.featured_text{
+           
+        }
+    }
+}

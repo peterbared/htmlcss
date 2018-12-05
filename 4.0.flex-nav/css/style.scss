@@ -1,0 +1,54 @@
+*,html{
+	box-sizing: border-box;
+}
+body{
+	margin:0 auto;
+	padding:0;
+	font:normal 16px/16px Consolas, "Andale Mono", "Courier New", "monospace";
+}
+
+ul, li{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+nav{
+	background-color: wheat;
+}
+ul{
+	height: 50px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	li{
+		background-color: antiquewhite;
+		margin:2px;
+		display: flex;
+		align-items: center;
+		padding:10px;
+		transition-duration: .5s;
+		&:hover{
+			background-color: aliceblue;
+		}
+	}
+	
+}
+
+
+
+@media (min-width:768px){
+	ul{
+		flex-direction: row;
+		height: 200px;
+		display: flex;
+		justify-content: flex-start;
+		li:nth-child(3){
+			margin-left:auto;
+		}
+	}
+	
+}

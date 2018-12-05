@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <script>
+        $(document).ready(function(){
+            
+            var active = 1;
+            var max = 3;
+        
+            function move(active){
+                $(".container").removeClass("active");
+                $(".c"+active).addClass("active");
+            }
+    
+            $( ".n2 a" ).on( "click", function() {
+                if(active<=2){
+                    console.log("ökar");
+                    active++;
+                    move(active);
+                }else{
+                    console.log("Max");
+                }
+            });
+            $( ".n1 a" ).on( "click", function() {
+                if(active>=2){
+                    console.log("minskar");
+                    active--;
+                    move(active);
+                }else{
+                    console.log("Min");
+                }
+            });
+            
+        });
+        </script>
+	</head>
+
+	<body>
+        
+        <div class="c1 container active"></div>
+        <div class="c2 container"></div>
+        <div class="c3 container"></div>
+        
+        <nav class="n1"><a href="#">prev</a></nav>
+        <nav class="n2"><a href="#">next</a></nav>
+        
+	</body>
+</html>

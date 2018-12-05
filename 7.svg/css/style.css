@@ -1,0 +1,17 @@
+*, html {
+  box-sizing: border-box; }
+
+body {
+  margin: 30px;
+  padding: 0;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  background-color: slategrey; }
+
+h1 {
+  font-size: 35px; }
+
+p {
+  font-size: 18px; }
+
+p.ingress {
+  font-weight: 600; }

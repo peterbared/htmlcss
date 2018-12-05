@@ -1,0 +1,17 @@
+body{
+	background-color: #B19494;
+}
+div{
+	width:350px;
+	height:350px;
+	background-color: grey;
+	display: flex;
+	
+	
+}
+div.vit{
+	height:60px;
+	width:350px;
+	background-color: white;
+	
+}
